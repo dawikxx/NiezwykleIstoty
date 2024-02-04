@@ -1,40 +1,8 @@
 /* styles.css */
 
 body {
-    font-family: Arial, sans-serif;
+    background-color: blue;
+    color: yellow;
 }
 
-ul {
-    list-style-type: none;
-    padding: 10;
-    margin: 10;
-}
-
-li {
-    display: inline;
-    margin-right: 50px;
-    cursor: pointer;
-    color: green;
-}
-
-li:hover {
-    text-decoration: underline;
-}
-
-.tab {
-    display: none;
-}
-
-.active {
-    display: block;
-}
-
-.tab h2 {
-    color: #333;
-}
-
-.tab p {
-    margin-top: 10px;
-}
-
-/* Add any additional styling you desire */
+/* Dodaj inne style według potrzeb */
