@@ -6,13 +6,13 @@ body {
 
 ul {
     list-style-type: none;
-    padding: 0;
-    margin: 0;
+    padding: 10;
+    margin: 10;
 }
 
 li {
     display: inline;
-    margin-right: 15px;
+    margin-right: 50px;
     cursor: pointer;
     color: green;
 }
@@ -34,7 +34,7 @@ li:hover {
 }
 
 .tab p {
-    margin-top: 50px;
+    margin-top: 10px;
 }
 
 /* Add any additional styling you desire */
