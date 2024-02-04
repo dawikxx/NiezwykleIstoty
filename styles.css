@@ -1,0 +1,40 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
+    cursor: pointer;
+    color: blue;
+}
+
+li:hover {
+    text-decoration: underline;
+}
+
+.tab {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+.tab h2 {
+    color: #333;
+}
+
+.tab p {
+    margin-top: 10px;
+}
+
+/* Add any additional styling you desire */
