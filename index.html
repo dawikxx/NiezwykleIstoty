@@ -5,74 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zakładki</title>
     
-
-<link rel="stylesheet" href="css/styles.css">
-  
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   
   <ul>
     <li onclick="showTab('tab1')">Główna</li>
-
     <li onclick="showTab('tab2')">Kontakt</li>
-
     <li onclick="showTab('tab3')">Zakładka 3</li>
-
     <li onclick="showTab('tab4')">Zakładka 4</li>
-
     <li onclick="showTab('tab5')">Zakładka 5</li>
+  </ul>
 
-</ul>
-
-
-
-
-<div id="tab1" class="tab active">
+  <div id="tab1" class="tab active">
     <h2>Główna</h2>
     <p>Zawartość zakładki 1...</p>
-</div>
+  </div>
 
-
-
-
-
-<div id="tab2" class="tab">
+  <div id="tab2" class="tab">
     <h2>Kontakt</h2>
     <p>Zawartość zakładki 2...</p>
-</div>
+  </div>
 
-
-
-
-
-<div id="tab3" class="tab">
+  <div id="tab3" class="tab">
     <h2>Zakładka 3</h2>
     <p>Zawartość zakładki 3...</p>
-</div>
+  </div>
 
-
-
-
-<div id="tab4" class="tab">
+  <div id="tab4" class="tab">
     <h2>Zakładka 4</h2>
     <p>Zawartość zakładki 4hdhdhdjdjdjj&j...</p>
-</div>
+  </div>
 
-
-
-
-
-<div id="tab5" class="tab">
+  <div id="tab5" class="tab">
     <h2>Zakładka 5</h2>
     <p>Zawartość zakładki 5 jshhsxjxjxjxjxj...</p>
-</div>
+  </div>
 
-
-
-
-
-
-<script>
+  <script>
     function showTab(tabId) {
         const tabs = document.querySelectorAll('.tab');
         tabs.forEach(tab => tab.classList.remove('active'));
@@ -80,16 +50,7 @@
         const selectedTab = document.getElementById(tabId);
         selectedTab.classList.add('active');
     }
-</script>
-
-
-
-
-
-
-
-
-
+  </script>
 
 </body>
 </html>
