@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zakładki</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .tab {
+            display: none;
+        }
+
+        .active {
+            display: block;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: inline;
+            margin-right: 10px;
+            cursor: pointer;
+            color: blue;
+        }
+
+        li:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<ul>
+    <li onclick="showTab('tab1')">Zakładka 1</li>
+    <li onclick="showTab('tab2')">Zakładka 2</li>
+    <li onclick="showTab('tab3')">Zakładka 3</li>
+</ul>
+
+<div id="tab1" class="tab active">
+    <h2>Zakładka 1</h2>
+    <p>Zawartość zakładki 1...</p>
+</div>
+
+<div id="tab2" class="tab">
+    <h2>Zakładka 2</h2>
+    <p>Zawartość zakładki 2...</p>
+</div>
+
+<div id="tab3" class="tab">
+    <h2>Zakładka 3</h2>
+    <p>Zawartość zakładki 3...</p>
+</div>
+
+<script>
+    function showTab(tabId) {
+        const tabs = document.querySelectorAll('.tab');
+        tabs.forEach(tab => tab.classList.remove('active'));
+
+        const selectedTab = document.getElementById(tabId);
+        selectedTab.classList.add('active');
+    }
+</script>
+
+</body>
+</html>
