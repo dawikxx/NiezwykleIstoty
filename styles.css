@@ -14,7 +14,7 @@ li {
     display: inline;
     margin-right: 10px;
     cursor: pointer;
-    color: #3498db; /* Twój niestandardowy kolor tekstu przycisków */
+    color: #ECE449; /* Twój niestandardowy kolor tekstu przycisków */
 }
 
 li:hover {
