@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #4CD9E3; /* Twój niestandardowy kolor tła */
-    color: #4D3D6D; /* Twój niestandardowy kolor tekstu */
+    color: #32CD32; /* Twój niestandardowy kolor tekstu */
 }
 
 ul {
@@ -14,7 +14,7 @@ li {
     display: inline;
     margin-right: 10px;
     cursor: pointer;
-    color: #ECE449; /* Twój niestandardowy kolor tekstu przycisków */
+    color: #8A2BE2; /* Twój niestandardowy kolor tekstu przycisków */
 }
 
 li:hover {
